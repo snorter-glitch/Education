@@ -15,13 +15,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Replace Yandex image orig URLs with XXL
+      - name: Fix feed
         run: |
           python - <<'PY'
           from pathlib import Path
+          import re
           for name in ['feeds/millenium/yandex-business.yml', 'feeds/millenium/yandex-business-all.yml']:
               p = Path(name)
               text = p.read_text(encoding='utf-8')
+              # 1054 was an accidental duplicate Fitness-bar item that is absent from the source Excel.
+              text = re.sub(r'\s*<offer id="1054" available="true">.*?</offer>', '', text, flags=re.S)
+              # Use stable direct Yandex image rendition links.
               text = text.replace('/orig</picture>', '/XXL</picture>')
               p.write_text(text, encoding='utf-8')
           PY
@@ -34,8 +38,10 @@ jobs:
               text = Path(name).read_text(encoding='utf-8')
               ET.fromstring(text)
               assert text.count('<offer ') == 60, (name, text.count('<offer '))
-              assert '/orig</picture>' not in text, name
               assert text.count('<picture>') == 60, (name, text.count('<picture>'))
+              assert '/orig</picture>' not in text, name
+              assert '<offer id="1054"' not in text, name
+              assert '<offer id="1047"' in text, name
           PY
       - name: Commit fixed feeds
         run: |
