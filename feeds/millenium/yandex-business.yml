@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<yml_catalog>
+  <shop>
+    <categories>
+      <category id="101">Фитнес</category>
+      <category id="102">Клубные карты</category>
+      <category id="103">Бассейн</category>
+      <category id="104">Групповые программы</category>
+      <category id="105">Пилатес и восстановление</category>
+      <category id="106">Детский фитнес</category>
+      <category id="107">Красота и SPA</category>
+      <category id="108">Дополнительные услуги</category>
+    </categories>
+    <offers>
+      <offer id="1001" available="true">
+        <name>Фитнес-клуб с бассейном</name>
+        <vendor>Миллениум</vendor>
+        <price>2500</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>101</categoryId>
+        <picture>https://avatars.mds.yandex.net/get-sprav-products/20340178/2a000001a086d71fe5ee0810d7c9c64fbdd1/orig</picture>
+        <description>«Миллениум» — большой фитнес-центр, где всё собрано в одном месте: тренажёрный и кардиозал, бассейны, групповые программы, Pilates PRO, бойцовский и детский клубы, сауна, хамам и зоны восстановления. Здесь легко выстроить свой режим: прийти на силовую тренировку, поплавать, сходить на йогу или закончить занятие в SPA. Подходит и для регулярного фитнеса, и для возвращения к тренировкам после перерыва. Клуб находится на Каширском шоссе, 55А, в Москворечье‑Сабурово.</description>
+        <shortDescription>Посмотрите «Миллениум» вживую — оставьте заявку и подберём удобную клубную карту.</shortDescription>
+        <url>https://milfit-day.ru/lead?utm_source=yandex_maps&amp;utm_medium=maps&amp;utm_content=product</url>
+      </offer>
+      <offer id="1002" available="true">
+        <name>Тренажёрный зал</name>
+        <vendor>Миллениум</vendor>
+        <price>2500</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>101</categoryId>
+        <picture>https://avatars.mds.yandex.net/get-sprav-products/19300642/2a000001a086c2b7fe57f0ea2abae1951852/orig</picture>
+        <description>Просторный тренажёрный зал «Миллениум» подходит для силовых тренировок, кардио, работы на рельеф, снижения веса и поддержания формы. В зале много оборудования, поэтому тренировку легко собрать под свою программу и уровень подготовки. Можно заниматься самостоятельно или подключить персонального тренера, а после тренировки перейти в бассейн, сауну или на групповое занятие. Удобный вариант для жителей ЮАО и тех, кто приезжает со стороны Кантемировской.</description>
+        <shortDescription>Приходите тренироваться на Каширское шоссе — оставьте заявку и познакомьтесь с залом.</shortDescription>
+        <url>https://milfit-day.ru/lead?utm_source=yandex_maps&amp;utm_medium=maps&amp;utm_content=product</url>
+      </offer>
+      <offer id="1056" available="true">
+        <name>12 месяцев — Базовая карта</name>
+        <vendor>Миллениум</vendor>
+        <price>5000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>102</categoryId>
+        <picture>https://avatars.mds.yandex.net/get-sprav-products/20340178/2a000001a08af6c6337551875b174905d5c5/orig</picture>
+        <description>Базовая карта на 12 месяцев — универсальный вариант для регулярных тренировок в течение года. Посещения не ограничены, поэтому можно выстроить удобный график и сочетать зал, бассейн, групповые занятия и восстановление. Предусмотрена заморозка от 30 дней, чтобы абонемент оставался удобным даже при поездках и перерывах. Клуб находится на Каширском шоссе, 55А, в Москворечье‑Сабурово.</description>
+        <shortDescription>Тренируйтесь весь год — оставьте заявку и подберите базовую карту.</shortDescription>
+        <url>https://milfit-day.ru/lead?utm_source=yandex_maps&amp;utm_medium=maps&amp;utm_content=product</url>
+      </offer>
+      <offer id="1003" available="true">
+        <name>Персональные тренировки</name>
+        <vendor>Миллениум</vendor>
+        <price>2500</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>101</categoryId>
+        <picture>https://avatars.mds.yandex.net/get-sprav-products/19300642/2a000001a086c2b7fe57f0ea2abae1951852/orig</picture>
+        <description>Персональные тренировки в «Миллениуме» помогают быстрее прийти к конкретной цели — снизить вес, набрать мышечную массу, улучшить технику, стать сильнее или вернуться в форму после перерыва. Тренер подбирает программу, следит за техникой и постепенно меняет нагрузку по мере прогресса. Такой формат особенно удобен, если хочется понятного плана и регулярной обратной связи. До «Миллениума» удобно добираться со стороны Каширской и Царицыно.</description>
+        <shortDescription>Оставьте заявку — подберём тренера и программу под вашу цель.</shortDescription>
+        <url>https://milfit-day.ru/lead?utm_source=yandex_maps&amp;utm_medium=maps&amp;utm_content=product</url>
+      </offer>
+      <offer id="1005" available="true">
+        <name>Бассейн 25 метров</name>
+        <vendor>Миллениум</vendor>
+        <price>2500</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>103</categoryId>
+        <picture>https://avatars.mds.yandex.net/get-sprav-products/19300642/2a000001a086c6a40fb026deb7efa12dc509/orig</picture>
+        <description>В «Миллениуме» есть бассейн для полноценного плавания с двумя дорожками длиной 25 метров, а рядом — отдельная зона для аквааэробики и водных программ. Здесь можно плавать самостоятельно, заниматься с тренером или добавить бассейн к обычным тренировкам в зале. После воды удобно перейти в гидромассажную зону, сауну или хамам. «Миллениум» находится в Москворечье‑Сабурово; сюда удобно приезжать и со стороны Орехово.</description>
+        <shortDescription>Хотите тренироваться с бассейном? Оставьте заявку и приходите знакомиться с клубом.</shortDescription>
+        <url>https://milfit-day.ru/lead?utm_source=yandex_maps&amp;utm_medium=maps&amp;utm_content=product</url>
+      </offer>
+      <offer id="1004" available="true">
+        <name>Групповые занятия</name>
+        <vendor>Миллениум</vendor>
+        <price>2500</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>104</categoryId>
+        <picture>https://avatars.mds.yandex.net/get-sprav-products/20340178/2a000001a086d71fe5ee0810d7c9c64fbdd1/orig</picture>
+        <description>В «Миллениуме» большой выбор групповых программ: силовые и функциональные классы, кардио, танцы, пилатес, йога, стретчинг, сайкл и другие направления. Можно выбрать активную тренировку, восстановительный формат или чередовать их в течение недели. Групповые занятия дают понятное расписание, работу с тренером и дополнительную мотивацию заниматься регулярно. Клуб расположен на Каширском шоссе — удобная точка для тренировок на юге Москвы.</description>
+        <shortDescription>Выберите своё направление — оставьте заявку и уточните актуальное расписание.</shortDescription>
+        <url>https://milfit-day.ru/lead?utm_source=yandex_maps&amp;utm_medium=maps&amp;utm_content=product</url>
+      </offer>
+      <offer id="1029" available="true">
+        <name>Пилатес на Реформере</name>
+        <vendor>Миллениум</vendor>
+        <price>2500</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>105</categoryId>
+        <picture>https://avatars.mds.yandex.net/get-sprav-products/20222640/2a000001a08783f31244d0de5a2466d30269/orig</picture>
+        <description>Пилатес на реформере в студии Pilates PRO позволяет точнее управлять нагрузкой и глубже работать с мышечным корсетом, осанкой и качеством движения. Специальное оборудование помогает адаптировать упражнения под уровень подготовки и задачи конкретного человека. Хороший формат для тех, кто ценит спокойную, техническую и персонализированную работу. «Миллениум» находится в Москворечье‑Сабурово; сюда удобно приезжать и со стороны Орехово.</description>
+        <shortDescription>Запишитесь на реформер — подберём удобное время в Pilates PRO.</shortDescription>
+        <url>https://milfit-day.ru/lead?utm_source=yandex_maps&amp;utm_medium=maps&amp;utm_content=product</url>
+      </offer>
+      <offer id="1013" available="true">
+        <name>Детский клуб</name>
+        <vendor>Миллениум</vendor>
+        <price>2500</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>106</categoryId>
+        <picture>https://avatars.mds.yandex.net/get-sprav-products/20340178/2a000001a08759f3723e908c59cabdc7c450/orig</picture>
+        <description>В детском клубе «Миллениум» есть спортивные и развивающие занятия для детей разных возрастов: плавание, акробатика, ритмика, бокс, танцевальные программы, шахматы и другие направления. Пока ребёнок занимается, родители могут тренироваться в зале, бассейне или на групповых классах. Удобный формат для семьи, когда спорт каждого можно собрать в одном месте. Клуб находится на Каширском шоссе, 55А, в Москворечье‑Сабурово.</description>
+        <shortDescription>Подберите занятия ребёнку — оставьте заявку и познакомьтесь с детским клубом.</shortDescription>
+        <url>https://milfit-day.ru/lead?utm_source=yandex_maps&amp;utm_medium=maps&amp;utm_content=product</url>
+      </offer>
+      <offer id="1049" available="true">
+        <name>Массаж</name>
+        <vendor>Миллениум</vendor>
+        <price>2500</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>107</categoryId>
+        <picture>https://avatars.mds.yandex.net/get-sprav-products/19300642/2a000001a08ac043a8a4ec64b1b9d15531a2/orig</picture>
+        <description>Массаж в «Миллениуме» удобно планировать после тренировки, бассейна или просто как отдельную процедуру для отдыха и восстановления. Массажный кабинет находится внутри фитнес-центра, поэтому всё можно совместить в одном посещении. Формат подойдёт тем, кто хочет добавить к тренировкам больше внимания восстановлению и телу. Клуб находится на Каширском шоссе, 55А, в Москворечье‑Сабурово.</description>
+        <shortDescription>Добавьте массаж к восстановлению — оставьте заявку и выберите удобное время.</shortDescription>
+        <url>https://milfit-day.ru/lead?utm_source=yandex_maps&amp;utm_medium=maps&amp;utm_content=product</url>
+      </offer>
+      <offer id="1053" available="true">
+        <name>Ознакомительные тренировки</name>
+        <vendor>Миллениум</vendor>
+        <price>1</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>108</categoryId>
+        <picture>https://avatars.mds.yandex.net/get-sprav-products/20222640/2a000001a08ae0589dd74bc2606de80077b1/orig</picture>
+        <description>Ознакомительные тренировки в «Миллениуме» помогают попробовать клуб в деле и понять, какой формат подходит именно вам. Можно познакомиться с тренерской командой, протестировать разные направления и почувствовать атмосферу тренировок до того, как выстроить постоянный график. Удобный способ начать без лишней теории. «Миллениум» находится в Москворечье‑Сабурово; сюда удобно приезжать и со стороны Орехово.</description>
+        <shortDescription>Попробуйте «Миллениум» в деле — оставьте заявку на ознакомительные тренировки.</shortDescription>
+        <url>https://milfit-day.ru/lead?utm_source=yandex_maps&amp;utm_medium=maps&amp;utm_content=product</url>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
