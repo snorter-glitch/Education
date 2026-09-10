@@ -1,0 +1,46 @@
+name: Fix Millennium feed images
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-millennium-feed-images.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Replace Yandex image orig URLs with XXL
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          for name in ['feeds/millenium/yandex-business.yml', 'feeds/millenium/yandex-business-all.yml']:
+              p = Path(name)
+              text = p.read_text(encoding='utf-8')
+              text = text.replace('/orig</picture>', '/XXL</picture>')
+              p.write_text(text, encoding='utf-8')
+          PY
+      - name: Validate feeds
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          for name in ['feeds/millenium/yandex-business.yml', 'feeds/millenium/yandex-business-all.yml']:
+              text = Path(name).read_text(encoding='utf-8')
+              ET.fromstring(text)
+              assert text.count('<offer ') == 60, (name, text.count('<offer '))
+              assert '/orig</picture>' not in text, name
+              assert text.count('<picture>') == 60, (name, text.count('<picture>'))
+          PY
+      - name: Commit fixed feeds
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add feeds/millenium/yandex-business.yml feeds/millenium/yandex-business-all.yml
+          git diff --cached --quiet || git commit -m 'Fix Millennium Yandex Business image URLs'
+          git push
